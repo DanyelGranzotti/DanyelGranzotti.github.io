@@ -70,6 +70,16 @@ article {
   padding: 1rem;
 }
 
+/* 
+  O loader é uma animação que gira sem parar. 
+  Para que isso aconteça, é preciso que o elemento
+  tenha um formato circular e que seja animado através
+  da propriedade transform: rotate() do CSS. 
+  A animação é feita através de um keyframe que define
+  um transform: rotate() de 0 a 360 graus, que é aplicado
+  ao elemento através da propriedade animation.A classe loader 
+
+*/
 .loader {
   width: 48px;
   height: 48px;
